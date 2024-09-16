@@ -257,7 +257,7 @@ int main() {
 
   initTabela(tabFrequencia);
 
-  FILE *fp = fopen("/Users/solek/Documents/UFFS/github/UFFS/3-Semestre/PesquisaeOrdenacao/ArvoreHuffmancArquivos/amostra.txt","rt"); // cria um ponteiro do tipo FILE para o arquivo do caso de teste e o abre em modo de leitura testa se abertura do arquivo funcionou e notifica caso não tenha uncionado.
+  FILE *fp = fopen("//caminhodearquivo/amostra.txt","rt"); // cria um ponteiro do tipo FILE para o arquivo do caso de teste e o abre em modo de leitura testa se abertura do arquivo funcionou e notifica caso não tenha uncionado.
   if (fp == NULL) {
      exit(1); // aborta o programa
   }
