@@ -291,14 +291,14 @@ int main() {
   }
   fclose(fp);
 
-  FILE *fp1 = fopen("/Users/solek/Documents/UFFS/github/UFFS/3-Semestre/PesquisaeOrdenacao/ArvoreHuffmancArquivos/codificado","w+");
+  FILE *fp1 = fopen("//caminhodearquivo/codificado","w+");
   if (fp1 == NULL) {
     exit(1);
   }
   fputs(codificado, fp1);
   fclose(fp1);
 
-  FILE *fp2 = fopen("/Users/solek/Documents/UFFS/github/UFFS/3-Semestre/PesquisaeOrdenacao/ArvoreHuffmancArquivos/decodificado.txt","w+");
+  FILE *fp2 = fopen("//caminhodearquivo/decodificado.txt","w+");
   if (fp2 == NULL) {
     exit(1); //aborta o programa
   }
